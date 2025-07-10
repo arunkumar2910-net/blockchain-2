@@ -1,0 +1,20 @@
+{
+  "name": "userauth-chaincode",
+  "version": "1.0.0",
+  "description": "Hyperledger Fabric chaincode for user authentication and management",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "fabric",
+    "chaincode",
+    "user",
+    "auth"
+  ],
+  "author": "Your Name",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fabric-contract-api": "^2.2.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "fabric-identity-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for enrolling admin and registering users in Hyperledger Fabric",
+  "main": "enrollAdmin.js",
+  "scripts": {
+    "enroll-admin": "node enrollAdmin.js",
+    "register-user": "node registerUser.js"
+  },
+  "keywords": [
+    "fabric",
+    "identity",
+    "enroll",
+    "register"
+  ],
+  "author": "Your Name",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fabric-network": "^2.2.0",
+    "fabric-ca-client": "^2.2.0"
+  }
+}
